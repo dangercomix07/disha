@@ -1,9 +1,10 @@
 # disha
 A Navigation platform for IITB Students
 A learning project to explore a new field
-Some ideas that I can think of are an integrated food delivery platform
+Some ideas that I can think of are:
 
 
+* Integrated food delivery platform for all canteens
 * Mess menu integration 
 * Facilitate offline meetings and hangouts among campus residents
 * Invitations for Birthday parties at a common location (read as GPLS) :)
