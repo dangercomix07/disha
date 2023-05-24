@@ -1,11 +1,7 @@
 .images{
-
   display:flex;
   gap: 50px;
   margin: 100px;
-
-
-
   }
 .map{
   border-radius: 30px;
