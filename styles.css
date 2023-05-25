@@ -7,9 +7,10 @@
   border-radius: 30px;
   padding-right: 10px;
   }
-.coming-soon {
+  .content {
     background-color:#CBDDD1;
-    width: 700px;
+    width: 1000px;
     margin: 100px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Lucida Sans';
+    line-height: 0.5em;
   }
