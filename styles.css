@@ -1,16 +1,23 @@
 .images{
   display:flex;
-  gap: 50px;
-  margin: 100px;
+  flex-direction: row;
+  gap: 5px;
+  margin: 25px;
   }
 .map{
+  width: 1700px;
+}
+.content {
+  background-color:#CBDDD1;
+  width:525px;
+  padding:5px;
+  font-family:'Lucida Sans';
+  line-height: 2em;
+}
+#map{
+  height: 700px;
+  width: 1070px;
+  margin: 0px;
   border-radius: 30px;
   padding-right: 10px;
-  }
-  .content {
-    background-color:#CBDDD1;
-    width: 1000px;
-    margin: 100px;
-    font-family:'Lucida Sans';
-    line-height: 0.5em;
-  }
+}
