@@ -9,53 +9,26 @@
              DISHA | Navigation for IITB
         </title>
         <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-            }
-            #map{
-                height:500px;
-                width: 500px;
-            }
-        </style>
     </head>
     <body style="background-color:#CBDDD1;">
         <div class="images">
             <div>
                 <img src="disha.png" class="center" width="500" height="600">
-                
+                <div class = "content">
+                    <p style="font-size: 25px;"> The Navigation Application for IITB Students</p>
+                    <p> Beta version out before 26th July 2023 </p>
+                </div>
             </div>
             <div>
-                <img src="map-image.png" class="map" width="1000" height="600">
+                <div id="map"></div>              
             </div>
         </div>
 
-        <div class = "content">
-            <p style="font-size:35px; line-height: 2em;">The Navigation Application for IITB Students</p>
-            <p style="font-size: 25px; padding: 10px; line-height: 2em"><b> HAPPY BIRTHDAY DISHA GUPTA!  :)</b></p>
-            <p style="font-size: large; padding: 10px;"> Google Maps API coming soon</p>
-            <p style="font-size: large; padding: 10px;"> Beta version out before 26th July 2023 </p>
-        </div>
-        </div>
-        <div id="map">
-        </div>
-        <script>
-            function initMap(){
-                var location = {lat:19.13104419225633,long:72.91848927462264};
-                var map = new google.maps.Map(document.getElementById("map"),{
-                    zoom:4,
-                    center: location
-                });
-                var marker = new google.maps.Marker({
-                    position: location,
-                    map: map
-                });
-            }
-        </script>
-        <script async defer src ="https://maps.googleapis.com/maps/api/
-        js?key=key&callback=initMap">
-
-        </script>
+        <img src="map-image.png" class="map" width="1000" height="600">
+        
+        <script src="script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?
+        key=AIzaSyDQty69UMbF_dhalTAyEd4gWHQ7iyOclYI&map_ids=e32bcee3831de469
+        &callback=initMap"></script>
     </body>
 </html>
